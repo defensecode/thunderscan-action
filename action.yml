@@ -1,5 +1,5 @@
 name: 'DefenseCode ThunderScan Action'
-description: 'Source code scanning for vulnerabilities using ThunderScan SAST solution API client'
+description: 'Source code scanning for vulnerabilities using DefenseCode ThunderScan SAST solution'
 author: 'DefenseCode'
 inputs:
   client_path:
