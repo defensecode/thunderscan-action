@@ -31,7 +31,7 @@ The default output format for this GitHub Action is a [SARIF](https://docs.githu
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
+    # ThunderScan Action
     - name: ThunderScan
       uses: defensecode/thunderscan-action@v1.0
       with:
