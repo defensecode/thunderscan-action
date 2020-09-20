@@ -26,6 +26,8 @@ The default output format for this GitHub Action is a [SARIF](https://docs.githu
 
 ## Example Usage
 
+ThunderScan action runs on a self-hosted runner, utilizing a ThunderScan API CLI client. 
+
 ```
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
