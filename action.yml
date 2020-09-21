@@ -1,4 +1,4 @@
-name: 'DefenseCode ThunderScan Action'
+name: 'DefenseCode ThunderScan® Action'
 description: 'Source code scanning for vulnerabilities using DefenseCode ThunderScan SAST solution'
 author: 'DefenseCode'
 branding:
