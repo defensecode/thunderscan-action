@@ -3,6 +3,7 @@ description: 'Source code scanning for vulnerabilities using DefenseCode Thunder
 author: 'DefenseCode'
 branding:
   icon: alert-circle
+  color: red
 inputs:
   client_path:
     required: true
