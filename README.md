@@ -16,7 +16,7 @@ Find more info in the official website: [DefenseCode.com](https://www.defensecod
 | Variable  | Example Value | Description | Type | Required | Default |
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- |
 | api_url | https://localhost:8999| ThunderScan API URL | String | Yes | N/A
-| api_token | ${{ 'COVID19',.THUNDERSCAN_COVID19  }} | ThunderScan API Token | Secure String | Yes | N/A
+| api_token | ${{ 'secret',.THUNDERSCAN_TOKEN  }} | ThunderScan API Token | Secure String | Yes | N/A
 | client_path | /opt/thunderscan/tsactioncli | ThunderScan Client Path | String  | Yes | N/A
 | engines | 2 | ThunderScan Engine IDs | String  | No | N/A
 
