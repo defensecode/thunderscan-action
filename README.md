@@ -16,7 +16,7 @@ Find more info in the official website: [DefenseCode.com](https://www.defensecod
 | Variable  | Example Value | Description | Type | Required | Default |
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- |
 | api_url | https://localhost:8999| ThunderScan API URL | String | Yes | N/A
-| api_token | ${{ secrets.THUNDERSCAN_TOKEN }} | ThunderScan API Token | Secure String | Yes | N/A
+| api_token | ${{ 'secret',.THUNDERSCAN_TOKEN  }} | ThunderScan API Token | Secure String | Yes | N/A
 | client_path | /opt/thunderscan/tsactioncli | ThunderScan Client Path | String  | Yes | N/A
 | engines | 2 | ThunderScan Engine IDs | String  | No | N/A
 
@@ -39,7 +39,7 @@ ThunderScan action runs on a self-hosted runner, utilizing a ThunderScan API CLI
       with:
         api_url: 'http://localhost:8999'
         client_path: '/opt/thunderscan/tsactioncli'
-        api_token:  ${{ secrets.THUNDERSCAN_TOKEN }}
+        api_token:  ${{ 'COVID19',.THUNDERSCAN_COVID19 }}
 
     - name: Expose report
       uses: actions/upload-artifact@v2
